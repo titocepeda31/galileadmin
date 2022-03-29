@@ -176,3 +176,35 @@
 }
 
 
+
+
+
+
+
+@media (max-width: 576px) {
+
+  .hori-timeline .events .event-list .event-date{
+    top:15px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .hori-timeline .events .event-list .event-date{
+    top:15px;
+  }
+
+}
+
+@media (max-width: 1199.98px) {
+
+  .hori-timeline .events .event-list .event-date{
+    top:20px;
+  }
+
+}
+
+
+
