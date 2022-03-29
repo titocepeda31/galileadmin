@@ -827,6 +827,15 @@ pre code {
   margin-left: 91.66667%;
 }
 
+@media (min-width: 368px) {
+
+  .mt-sm-3,
+  .my-sm-3 {
+    margin-top: 1rem !important;
+  }
+
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
