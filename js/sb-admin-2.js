@@ -6,17 +6,33 @@
     $("body").toggleClass("sidebar-toggled");
    // $("#wrapper").addClass('m6').siblings().removeClass('m6');
     $(".sidebar").toggleClass("toggled");
+
     if ($(".sidebar").hasClass("toggled")) {
       $('.sidebar .collapse').collapse('hide');
-      $("#wrapper").addClass('m6');
+
+      if ($(window).width() < 768){
+        $("#wrapper").addClass('m0');
+      }else{
+        $("#wrapper").addClass('m6');
+      }
+      //$("#wrapper").addClass('m6');
     }else{
-      $("#wrapper").removeClass('m6');
+
+      if ($(window).width() < 768){
+        $("#wrapper").removeClass('m0');
+      }else{
+        $("#wrapper").removeClass('m6');
+      }
+      
+      //$("#wrapper").removeClass('m6');
     }
+
+
   });
 
   // Close any open menu accordions when window is resized below 768px
   $(window).resize(function() {
-    if ($(window).width() < 768) {
+    if ($(window).width() < 768){
       $('.sidebar .collapse').collapse('hide');
     };
     

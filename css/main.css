@@ -161,6 +161,11 @@
   color: white !important
 }
 
+.m0{
+
+  padding-left: 0rem !important;
+
+}
 
 .m6{
     padding-left: 6rem !important;
@@ -169,3 +174,5 @@
 .m14{
     padding-left: 14rem;
 }
+
+
